@@ -1,0 +1,123 @@
+[
+    {
+        "type": "singleselect",
+        "desc": "Type of Application",
+        "label": "Type of Application",
+        "subfields": [
+            {
+                "type": "singleselect",
+                "desc": "APP",
+                "label": "APP",
+                "subfields": [
+                    {
+                        "type": "multiselect",
+                        "desc": "Business Websites",
+                        "label": "Business Websites",
+                        "subfields": [
+                            "type_of_website",
+                            "Signup_json"
+                        ]
+                    },
+                    {
+                        "type": "multiselect",
+                        "desc": "Blogs & Forums",
+                        "label": "Blogs & Forums",
+                        "subfields": []
+                    },
+                    {
+                        "type": "multiselect",
+                        "desc": "Fashion & Beauty",
+                        "label": "Fashion & Beauty",
+                        "subfields": []
+                    },
+                    {
+                        "type": "multiselect",
+                        "desc": "Restaurants & Food",
+                        "label": "Restaurants & Food",
+                        "subfields": []
+                    }
+                ]
+            },
+            {
+                "type": "singleselect",
+                "desc": "Web",
+                "label": "Web",
+                "subfields": [
+                    {}
+                ]
+            },
+            {
+                "type": "singleselect",
+                "desc": "Enterprise Software",
+                "label": "Enterprise Software",
+                "subfields": [
+                    {}
+                ]
+            }
+        ]
+    },
+    {
+        "Type_of_website": [
+            {
+                "type": "singleselect",
+                "desc": "How big is your project?",
+                "label": "How big is your project?",
+                "subfields": [
+                    {
+                        "type": "leaf",
+                        "label": "Small",
+                        "desc": "4-5 key feature pages excluding sign-up, sign-in, static content",
+                        "minPrice": "1000",
+                        "maxPrice": "1200"
+                    },
+                    {
+                        "type": "leaf",
+                        "label": "Medium",
+                        "desc": "6-9 key feature pages excluding sign-up, sign-in, static content",
+                        "minPrice": "2000",
+                        "maxPrice": "2200"
+                    },
+                    {
+                        "type": "leaf",
+                        "label": "Large",
+                        "desc": "10-15 key feature pages excluding sign-up, sign-in, static content",
+                        "minPrice": "3000",
+                        "maxPrice": "3500"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Signup_json": [
+            {
+                "type": "multiselect",
+                "desc": "Signup Strategy",
+                "label": "Signup Strategy",
+                "subfields": [
+                    {
+                        "type": "leaf",
+                        "label": "Email and Password",
+                        "desc": "Email and password",
+                        "minPrice": "1000",
+                        "maxPrice": "1200"
+                    },
+                    {
+                        "type": "leaf",
+                        "label": "OTP",
+                        "desc": "OTP over mail and Mobile",
+                        "minPrice": "2000",
+                        "maxPrice": "2200"
+                    },
+                    {
+                        "type": "leaf",
+                        "label": "Social Login",
+                        "desc": "Social Login",
+                        "minPrice": "3000",
+                        "maxPrice": "3500"
+                    }
+                ]
+            }
+        ]
+    }
+]
