@@ -507,6 +507,14 @@ main{width: 100%; display: flex; flex-wrap: wrap; margin-top: 100vh; background:
 	
 }
 
+/*Works Hashtag*/
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 	.navbar{padding: 30px 25px;}

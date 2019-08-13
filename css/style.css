@@ -649,7 +649,7 @@ a {
 }
 
 /* SOUNDBAR */
-.soundbar {
+/* .soundbar {
   width: 46px;
   height: 100%;
   display: flex;
@@ -719,7 +719,7 @@ a {
   float: left;
   margin-left: 10px;
   position: relative;
-}
+} */
 
 /* SLIDER */
 .header {
@@ -3442,9 +3442,9 @@ main {
     height: 40px;
   }
 
-  .soundbar {
+  /* .soundbar {
     display: none;
-  }
+  } */
 
   .navigation-menu.open address {
     display: none;

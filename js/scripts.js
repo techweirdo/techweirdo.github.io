@@ -41,9 +41,9 @@
 		});
 		
 		// EQUALIZER TEXT
-		$('.equalizer').on('click', function(e) {
-		$(".sound-text").toggleClass("move-up");
-		});
+		// $('.equalizer').on('click', function(e) {
+		// $(".sound-text").toggleClass("move-up");
+		// });
 		
 		// EQUALIZER TOGGLE
 			var source = "audio/audio.mp3";
