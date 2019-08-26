@@ -3656,5 +3656,69 @@ main {
   }
 }
 
+@media (max-width: 700px) {
+
+  .navbar {
+    background-color: #333;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sandwich-nav {
+    width: initial;
+  }
+
+  .sandwich-nav .sandwich-btn {
+    float: right !important;
+  }
+
+  .navbar .logo a img {
+    width: 120px;
+    height: 30px;
+  }
+
+  .sandwich-nav .sandwich-text, 
+  .header h5:before {
+    display: none;
+  }
+
+  .works {
+    padding: 30px 10px;
+  }
+
+  .header .video-bg video {
+    min-height: initial;
+    margin-top: 50px;
+  }
+
+  .video-bg .container, 
+  .header .video-bg, 
+  .header .video-bg video {
+    position: static !important;
+  }
+
+  .page-loaded .header .social-media, 
+  .header:after, 
+  .header:before {
+    display: none;
+  }
+
+  .header h5, 
+  .header h2 {
+    color: #333;
+  }
+
+  .video-bg .container {
+    margin-top: 10px;
+  }
+
+  .header h2 {
+    margin-bottom: 10px;
+  }
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
