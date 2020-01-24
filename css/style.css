@@ -63,6 +63,12 @@ body {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/FontsFree-Net-HelveticaNeueBold.ttf);
+}
+
+
 html {
   height: 100%;
 }
@@ -2483,17 +2489,23 @@ main {
   max-width: 600px;
   margin: 0 auto;
 }
-.side-content-block .inner .holder p {
-  font-family: "Libre Baskerville", serif;
+/* .side-content-block .inner .holder p {
+  font-family: Helvetica, serif;
   font-size: 23px;
   line-height: 36px;
   margin-bottom: 44px;
-}
+  color : white;
+  margin-left: 3px;
+} */
 .side-content-block .inner .holder h6 {
+  font:Helvetica !important;
+  width:cover;
   font-weight: 800;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 0;
+  color: #f2f2f2;
+  margin-left: 3px;
 }
 .side-content-block .btn-ghost {
   width: 180px;
